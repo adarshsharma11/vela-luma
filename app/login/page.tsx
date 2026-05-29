@@ -15,6 +15,8 @@ import {
   BUTTON_LABELS,
   COPY,
   FORM_LABELS,
+  LOGIN_DEMO_EMAIL,
+  LOGIN_DEMO_PASSWORD,
   LOGO_MARK,
   PASSWORD_MIN_LENGTH,
   PLACEHOLDERS,
@@ -34,8 +36,8 @@ export default function LoginPage(): JSX.Element {
     formState: { errors, isSubmitting },
   } = useForm<LoginFormValues>({
     defaultValues: {
-      email: '',
-      password: '',
+      email: LOGIN_DEMO_EMAIL,
+      password: LOGIN_DEMO_PASSWORD,
     },
   });
 

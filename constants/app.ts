@@ -55,6 +55,8 @@ export const MAX_SEATS = 20 as const;
 export const RECENT_ACTIVITY_LIMIT = 10 as const;
 export const PASSWORD_MIN_LENGTH = 6 as const;
 export const PROMPT_PREVIEW_LENGTH = 92 as const;
+export const LOGIN_DEMO_EMAIL = 'dale@velaluma.ai' as const;
+export const LOGIN_DEMO_PASSWORD = 'password123' as const;
 
 export const NAVIGATION_LABELS = {
   MENU: 'Menu',
@@ -86,6 +88,7 @@ export const BUTTON_LABELS = {
   SIGN_IN: 'Sign in',
   SEND_INVITE: 'Send invite',
   CANCEL: 'Cancel',
+  LOGOUT: 'Log out',
   NEW_PROMPT: '+ New Prompt',
 } as const;
 
